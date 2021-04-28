@@ -5,8 +5,6 @@
 # [20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5] return 5
 # [1,1,2,-2,5,2,4,4,-1,-2,5] returns -1
 
-
-
 def find_it(seq):
     my_dict = {}
     for num in seq:
