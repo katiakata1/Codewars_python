@@ -20,7 +20,7 @@ def parse(data):
             array.append(increment)
         elif letter == "d":
             increment -= 1
-        else:
+        elif letter == "s":
             increment = increment ** 2
             
     return array 
